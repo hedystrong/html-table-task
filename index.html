@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div id="title" class=" p-3 ml-5 d-flex justify-content-center border-bottom border-dark">
+        <div id="title" class=" p-3 d-flex justify-content-between border-bottom border-dark">
             <div class="d-flex justify-content-between" >
                 <p>Хэвлэсэн:</p>
                 <p class="fw-bold">Б.Батзориг</p>
@@ -22,24 +22,27 @@
         </div>
         
         <h1 class="p-5 text-center">ХИЧЭЭЛИЙН ТООН МЭДЭЭЛЭЛ</h1>
-        <table class="table" style="text-align: center">
-            <tr class="bg-info">
-                <th rowspan="2" >№</th>
-                <th rowspan= "2" width ="180px">Тэнхим</th>
-                <th rowspan="2" width="700px" >Хичээл</th>
-                <th colspan="2" width=" 300px">Тоон мэдээлэл</th>
-            </tr>
-            <tr class="bg-info">
-                <th class= "text-wrap"width="150px">Хамрагдсан оюутны тоо</th>
-                <th>Дундаж үнэлгээ</th>
-            </tr>
+        <table class="table">
+            <div class=" justify-content-center position-relative">
+                <tr class="bg-info">
+                    <th id="diff" rowspan="2" >№</th>
+                    <th rowspan= "2" width ="180px"></th>
+                    <th id="diff" rowspan="2" width="700px" >Хичээл</th>
+                    <th colspan="2" width=" 300px">Тоон мэдээлэл</th>
+                </tr>
+                <tr class="bg-info">
+                    <th class= "text-wrap"width="150px">Хамрагдсан оюутны тоо</th>
+                    <th>Дундаж үнэлгээ</th>
+                </tr>
+            </div>
+            
             <tr class="bg-warning">
-                <th colspan="5">1.Ерөнхий эрдмийн</th>
+                <th id="text-start" colspan="5">1.Ерөнхий эрдмийн</th>
             </tr>
             <tr>
                 <td>1.</td>
                 <td rowspan="2">Тэнхим "А"</td>
-                <td rowspan="2">Монголын түүх</td>
+                <td class="text-start" rowspan="2">Монголын түүх</td>
                 <td>1</td>
                 <td>2</td>
             </tr>
@@ -49,12 +52,12 @@
                 <td>2</td>
             </tr>
             <tr class="bg-warning">
-                <th colspan="5">2.Мэргэжлийн</th>
+                <th id="text-start" colspan="5">2.Мэргэжлийн</th>
             </tr>
             <tr>
                 <td>3.</td>
                 <td rowspan="6">Тэнхим "Б"</td>
-                <td rowspan="6">Програм хангамж</td>
+                <td class="text-start" rowspan="6">Програм хангамж</td>
                 <td>3</td>
                 <td>1</td>
             </tr>
@@ -84,12 +87,12 @@
                 <td>2</td>
             </tr>
             <tr class="bg-warning">
-                <th colspan="5">3. Бусад</th>
+                <th id="text-start" colspan="5">3. Бусад</th>
             </tr>
             <tr>
                 <td>9.</td>
                 <td rowspan="6">Тэнхим "В"</td>
-                <td rowspan="6">Дээд математик</td>
+                <td class="text-start" rowspan="6">Дээд математик</td>
                 <td>6</td>
                 <td>2</td>
             </tr>
@@ -119,12 +122,12 @@
                 <td>1</td>
             </tr>
             <tr class="bg-warning">
-                <th colspan="5">4.Мэргэшүүлэх</th>
+                <th id="text-start" colspan="5">4.Мэргэшүүлэх</th>
             </tr>
             <tr>
                 <td>15.</td>
-                <td rowspan="2">Тэнхим "Г"</td>
-                <td rowspan="2">Өгөгдлийн сангийн програмчлал</td>
+                <td class="justify-content-around" rowspan="2">Тэнхим "Г"</td>
+                <td class="text-start" rowspan="2">Өгөгдлийн сангийн програмчлал</td>
                 <td>2</td>
                 <td>1</td>
             </tr>

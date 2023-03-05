@@ -6,16 +6,16 @@
 }
 #title{
     width: 80%;
+    margin-left: 120px;
 }
-table{
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    border: 1px solid grey;
+#diff{
+    padding-top: 35px;
 }
-table, th, td{
+#text-start{
+    padding-right: 700px;
+}
+
+ th, td{
     border: 1px solid #004b49;
     text-align: center;
-    text-align: left;
-    justify-content: center;
 }
