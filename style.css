@@ -1,0 +1,21 @@
+.container{
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid grey;
+}
+#title{
+    width: 80%;
+}
+table{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid grey;
+}
+table, th, td{
+    border: 1px solid #004b49;
+    text-align: center;
+    text-align: left;
+    justify-content: center;
+}
